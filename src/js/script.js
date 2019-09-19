@@ -1,3 +1,6 @@
+//require('es6-promise').polyfill(); // or import in webpack module (plugins: ["es6-promise"])
+require('nodelist-foreach-polyfill');
+
 window.addEventListener("DOMContentLoaded", function () {
   "use strict";
 
